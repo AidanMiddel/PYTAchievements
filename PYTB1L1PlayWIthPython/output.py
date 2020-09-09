@@ -32,8 +32,13 @@ Hallo Aidan ben je al 16 jaar?
 >>> leeftijd-=1
 >>> leeftijd
 16
->>> print ("if commandos heb ik geen idee of die werken")
-if commandos heb ik geen idee of die werken
+>>>if leeftijd < 18:
+    hoelang_tot18jaar = 18 - leeftijd
+    print('Over ' + str(hoelang_tot18jaar) + ' jaar wordt je 18')
+Over 2 jaar word je 18
+>>>else:
+    print('Je bent precies ' + str(leeftijd) + ' jaar')
+Je bent precies 16 jaar
 >>> from random import randint
 >>> randint(0,1000)
 825
@@ -69,4 +74,4 @@ Traceback (most recent call last):
 Error: unsupported locale setting
 >>> datum.strftime('%A %d %B %Y')
 'Wednesday 09 September 2020'
->>> 
+>>>
