@@ -35,7 +35,7 @@ Hallo Aidan ben je al 16 jaar?
 >>>if leeftijd < 18:
     hoelang_tot18jaar = 18 - leeftijd
     print('Over ' + str(hoelang_tot18jaar) + ' jaar wordt je 18')
-Over 2 jaar word je 18
+Over 2 jaar wordt je 18
 >>>else:
     print('Je bent precies ' + str(leeftijd) + ' jaar')
 Je bent precies 16 jaar
