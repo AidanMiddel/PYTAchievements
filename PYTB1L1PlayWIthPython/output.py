@@ -55,23 +55,11 @@ Willekeurig getal tussen 0 en 1000: 885
 'Wednesday 09 September 2020'
 >>> import locale
 >>> locale.setlocale(locale.LC_TIME, 'nl_NL')
-
-Traceback (most recent call last):
-  File "<pyshell#29>", line 1, in <module>
-    locale.setlocale(locale.LC_TIME, 'nl_NL')
-  File "C:\Python27\lib\locale.py", line 581, in setlocale
-    return _setlocale(category, locale)
-Error: unsupported locale setting
+'nl_NL'
 >>> datum.strftime('%A %d %B %Y')
-'Wednesday 09 September 2020'
+'woensdag 09 september 2020'
 >>> locale.setlocale(locale.LC_TIME, 'it_IT')
-
-Traceback (most recent call last):
-  File "<pyshell#31>", line 1, in <module>
-    locale.setlocale(locale.LC_TIME, 'it_IT')
-  File "C:\Python27\lib\locale.py", line 581, in setlocale
-    return _setlocale(category, locale)
-Error: unsupported locale setting
+'it_IT'
 >>> datum.strftime('%A %d %B %Y')
-'Wednesday 09 September 2020'
+'mercoledì 09 settembre 2020'
 >>>
