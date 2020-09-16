@@ -1,6 +1,6 @@
 name = "Aidan"
 weight = "medium"
-length = "average"
+length = "1,80"
 doublejump = True
 charactertype = "defender"
 accuracy = "[██████-----]"
@@ -10,6 +10,7 @@ healt = "      [██████-----]"
 
 print("name: " , name)
 print("size: " , weight)
+print("length: " , length)
 print("class: " , charactertype)
 print("ability to doublejump: " , doublejump)
 print ("health: " , healt)
