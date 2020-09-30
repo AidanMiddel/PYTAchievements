@@ -1,0 +1,6 @@
+naam = input("Hallo wat is jou naam? ")
+print("leuk om je te ontmoeten" , naam , "!, mijn naam is Aidan")
+leeftijd = input("hoe oud ben jij? ")
+print("oh dus jij bent" , leeftijd , "jaar oud" , naam , "ik ben 16")
+plaats = input("waar kom jij vandaan? ")
+print("oh dus jij komt uit" , plaats , ". dat is leuk ik kom uit Haarlem")
