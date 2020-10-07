@@ -9,6 +9,7 @@ time.sleep(1)
 print("laten we maar beginnen...")
 print("")
 time.sleep(1)
+
 print("")
 print("je ligt lekker in bed te slapen tot je ineens een geluid hoort \neehhh eeehhh eehhhh eehh eehhh \nhet is je wekker....")
 print("wat doe je?")
@@ -36,6 +37,44 @@ if douchen == "A":
 elif douchen == "B":
     print("")
     print("lekker even in de ochtend douchen")
+else:
+    print("")
+    print("let op hoofdletters! maar ik ga wel verder")
+
+print("")
+time.sleep(1)
+print("oké je bent nu beneden en ga ontbijten \nwat neem je als ontbijt?")
+print("A. musie \nB. lekker een boterham \nC. geen ontbijt")
+print("")
+ontbijt = input("A of B of C(let op hoofdletters): ")
+if ontbijt == "A":
+    print("")
+    print("lekker moet je doen")
+elif ontbijt == "B":
+    print("")
+    print("altijd goed")
+elif ontbijt == "C":
+    print("")
+    print("niet goed voor je hè, maar ja")
+else:
+    print("")
+    print("let op hoofdletters! maar ik ga wel verder")
+
+print("")
+time.sleep(1)
+print("zo je hebt net lekker ontbeten (of niet) \nhoe ga je vandaag naar school toe")
+print("A. musie \nB. lekker een boterham \nC. geen ontbijt")
+print("")
+ontbijt = input("A of B of C(let op hoofdletters): ")
+if ontbijt == "A":
+    print("")
+    print("lekker moet je doen")
+elif ontbijt == "B":
+    print("")
+    print("altijd goed")
+elif ontbijt == "C":
+    print("")
+    print("niet goed voor je hè, maar ja")
 else:
     print("")
     print("let op hoofdletters! maar ik ga wel verder")
