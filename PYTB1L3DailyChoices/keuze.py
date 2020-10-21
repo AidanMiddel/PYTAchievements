@@ -63,18 +63,34 @@ else:
 print("")
 time.sleep(1)
 print("zo je hebt net lekker ontbeten (of niet) \nhoe ga je vandaag naar school toe")
-print("A. musie \nB. lekker een boterham \nC. geen ontbijt")
+print("A. fiets \nB. openbaar vervoer \nC. auto")
 print("")
-ontbijt = input("A of B of C(let op hoofdletters): ")
-if ontbijt == "A":
+reis = input("A of B of C(let op hoofdletters): ")
+if reis == "A":
     print("")
-    print("lekker moet je doen")
-elif ontbijt == "B":
+    print("gezond lekker fietsen (of je woont dicht bij school)")
+elif reis == "B":
     print("")
-    print("altijd goed")
-elif ontbijt == "C":
+    print("Ja lekker zitten terwijl je naar je locatie wordt gebracht")
+elif reis == "C":
     print("")
-    print("niet goed voor je hè, maar ja")
+    print("lekker door je moeder op school worden afgezet")
+else:
+    print("")
+    print("let op hoofdletters! maar ik ga wel verder")
+
+print("")
+time.sleep(1)
+print("zo je bent op school aangekomen en loopt naar je klas \nga je voor of achterin van de klas zitten?")
+print("A. voorin \nB. achtering")
+print("")
+zitten = input("A of B (let op hoofdletters): ")
+if zitten == "A":
+    print("")
+    print("ja je mag de docent wel? of moet je voorin zitten van de docent?")
+elif zitten == "B":
+    print("")
+    print("lekker een beetje klooien achterin, kan geen kwaad toch")
 else:
     print("")
     print("let op hoofdletters! maar ik ga wel verder")
