@@ -44,7 +44,7 @@ else:
 print("")
 time.sleep(1)
 print("oké je bent nu beneden en ga ontbijten \nwat neem je als ontbijt?")
-print("A. musie \nB. lekker een boterham \nC. geen ontbijt")
+print("A. muslie \nB. lekker een boterham \nC. geen ontbijt")
 print("")
 ontbijt = input("A of B of C(let op hoofdletters): ")
 if ontbijt == "A":
