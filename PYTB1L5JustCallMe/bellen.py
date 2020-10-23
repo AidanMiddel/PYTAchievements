@@ -1,8 +1,5 @@
 import sys
 import time
-import threading
-name = "Aidan"
-number = "nee"
 
 def callMe(name, number):
     print("&: Hello?")
@@ -25,5 +22,4 @@ def callMe(name, number):
     time.sleep(1)
     print("click...")
 
-thread1 = threading.Thread(target=callMe)
-thread1.start()
+callMe(sys.argv[1], sys.argv[2])
