@@ -1,3 +1,4 @@
+#maakt variablen met de stats van de player
 name = "Aidan"
 weight = "medium"
 length = "1,80"
@@ -8,6 +9,7 @@ speed = "       [████████---]"
 sneek = "       [███--------]"
 healt = "      [██████-----]"
 
+#laat de stats zien van de player
 print("name: " , name)
 print("size: " , weight)
 print("length: " , length)
@@ -18,6 +20,7 @@ print("gun accuracy: " , accuracy)
 print("speed: " , speed)
 print("sneak: " , sneek)
 print(" ")
+#klein grapje met dat je het karater kan kiezen of niet maar het komt nooit tot een game
 kiezen = input("press A to choose or B to denie:")
 if kiezen == "A":
     print(" ")
